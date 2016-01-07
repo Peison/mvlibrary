@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+/*电影介绍页面中，电影图片的css*/
+.photo {
+    margin:20px 0px 20px -15px;
+}
+
+.introduce {
+
+    /*电影介绍页面中，电影信息的css*/
+}
+#mov_introduce {
+    font-size:14px;
+    background-color: #FCFCFC;
+    box-shadow:  1px 1px 1px #EBF1F3,-1px -1px 1px #EBF1F3;
+}
+.introduce p{
+    margin-bottom:10px;
+}
+
+/*电影介绍页面中，电影简介的css*/
+.desc {
+    margin-top:15px;
+}
+
+.desc div{
+    margin-bottom:5px;
+    color:rgb(66,139,202);
+    font-size:16px;
+}
+
+.desc a:hover{
+    text-decoration:none;
+    cursor:pointer;
+}
+
+/*电影简介页面中，电影评论的css*/
+.comment {
+    margin-top:25px;
+}
+.comment div{
+    margin-bottom:10px;
+    color:rgb(66,139,202);
+    font-size:16px;
+}
+
+.comment a:hover{
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.content{
+    background-color: #F8F9FA;
+    box-shadow:  1px 1px 1px #9CA3A5,-1px -1px 1px #9CA3A5;
+    margin-bottom:20px;
+}
+.content p{
+    margin:10px 0px;
+}
+
+.title{
+    text-align:left;
+}
+.title p{
+    margin:1px 0px;
+}
+
+/*添加評論的css*/
+.addDesc{
+    padding : 0px;
+}
+.addDesc textarea{
+    width:100%;
+    height:60px;
+}
+
+.collect{
+    width: 60px;
+    height: 55px;
+    background-color: #91948f;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    cursor: pointer;
+    line-height: 55px;
+    text-align: center;
+    font-family: "MicroSoft YaHei";
+    font-size: 20px;
+    color: #ffffff;
+}
+.collect-modal .modal-dialog{
+    width: 500px;
+}
+
+.collect-modal-body{
+    max-height: 280px;
+    overflow-y: auto;
+    padding: 0px;
+}
+
+.collect-modal-body .form-control{
+    margin: 10px 0px;
+}
+.collect-modal-body .button{
+    border-radius: 0px;
+    border-bottom: inset 1px #B2AFAF;
+}
+
+
+
+
+

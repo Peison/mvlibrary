@@ -1,0 +1,26 @@
+.view-title{
+    margin: 20px 0px;
+}
+
+.viewPassage-mark {
+    margin: 10px 0px;
+}
+.viewPassage-thumbs{
+    font-size: 20px;
+    text-align: right;
+}
+.active i{
+    cursor: pointer;
+}
+
+.negative i{
+    cursor: default;
+}
+
+.thumbs{
+    color: #ff6140;
+}
+
+a{
+
+}

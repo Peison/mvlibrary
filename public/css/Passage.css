@@ -1,0 +1,20 @@
+/*长评页面*/
+.title{
+    color:rgb(66,139,202);
+    margin: 20px 0px;
+}
+
+.passage-form{
+    margin-left: 10%;
+}
+
+#summer-note{
+    margin: 15px 8.333333%;
+}
+
+.passage-submit{
+    margin-left: 48%;
+}
+#mark{
+    padding: 5px 10px;
+}

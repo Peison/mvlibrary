@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+/*主页中，电影图片、描述的css*/
+.desc {
+    font-size:16px;
+    text-align:center;
+}
+
+.thumbnail{
+    margin-bottom:5px;
+}
+
+.thumbnail:hover{
+    padding: 0px;
+}
+.photo {
+
+}
+.photo .row{
+    margin:20px 0px;
+}
+
+
+

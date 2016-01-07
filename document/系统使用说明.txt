@@ -1,0 +1,12 @@
+需要的软件环境:
+1.apache：5.3.10
+2.mysql：5.5.20
+3.php：2.2.21
+
+桌面调试建议使用WampServer，一键式安装，服务器建议独立安装
+
+操作步骤
+1.请把代码放到apache的www目录下，注意mvlibrary文件夹要和yii文件夹放在同一目录下
+2.确保上述所有的软件运行正常
+3.使用mysql执行mvlibrary.sql文件，创建数据库
+3.访问mvlibrary中index.php

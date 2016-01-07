@@ -1,0 +1,72 @@
+.set-info{
+    margin-top: 20px;
+}
+.set-photo{
+    margin-left: -15px;
+}
+.other-info div{
+    margin: 5px 0px;
+}
+.set-title{
+    margin-left: 5px;
+    font-size: 16px;
+    width: 100px;
+}
+
+.set-title-icon{
+    color: #d43f3a;
+}
+
+.set-detail{
+    margin-left: 5px;
+}
+
+.collect-btn{
+    margin-top: 20px;
+    width: 10%;
+}
+
+.set-list{
+    margin-top: 20px;
+}
+.set-list .thumbnail{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    height: 130px;
+    padding: 0px;
+    border: 0px;
+}
+.set-list img{
+    max-height: 130px;
+}
+
+.desc{
+    text-align: center;
+}
+
+.set-remove{
+    opacity: 0.8;
+    color: #d43f3a;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: -30px;
+    cursor: pointer;
+}
+
+.trash{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    display: none;
+}
+
+.trash i{
+    color: #FFFFFF;
+    padding: 35%;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+/*后台栏目的css*/
+.container{
+	width:1024px;
+	margin:40px auto;	
+}
+
+
+.banner ul{
+	list-style:none;	
+	padding:0px;	
+}
+
+.banner li{
+	float:left;	
+	font-size:20px;
+	margin-right:20px;	
+}
+
+.banner a:hover{
+	text-decoration:none;
+}
+
+.back{
+	text-align:right;
+	font-size:20px;
+}
+
+.back span{
+	color:#428bca;
+}
+
+
+/*仪表盘的css*/
+.welcome{	
+	font-size:25px;	
+	text-align:center;
+	line-height:100%;
+	margin-top:60px;	
+	margin-bottom:350px;
+}
+
+
+/*添加电影的css*/
+.title{
+	margin-bottom:10px;	
+}
+.star{
+	color:red;
+}
+
+.image img{
+	 width:200px;	 	 
+	 margin-bottom:10px;
+}
+
+.poster{
+	margin-left:-60px;
+}
+
+
+.tips{
+	color:red;
+}
+
+/*电影管理的css*/
+.itemNum{
+	margin-top:10px;
+	font-size:15px;
+	text-align:right;	
+}
+.itemNum select{
+	width:50px;
+}
+
+.movies td,.movies th{
+	text-align:center;
+	font-family:Microsoft YaHei,MingLiU;
+}
+td a:hover{
+	text-decoration:none;
+}
+.movies thead{
+	background-color:#459BE4;
+	color:#FFFFFF;
+}
+
+.page{
+	text-align:right;
+}
+
+td span{
+	display: block;
+	width:200px;/*对宽度的定义,根据情况修改*/
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
